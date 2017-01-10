@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1C6CE71B4E444D00ED5FDB /* model.c in Sources */ = {isa = PBXBuildFile; fileRef = DE1C6CE61B4E444D00ED5FDB /* model.c */; };
+		DE21AC851B15A5F5005A54F5 /* mac-main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE21AC841B15A5F5005A54F5 /* mac-main.m */; };
+		DE21AC871B15A634005A54F5 /* mac-mainmenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE21AC861B15A634005A54F5 /* mac-mainmenu.xib */; };
+		DE6946561B11B17C008C1F56 /* game.c in Sources */ = {isa = PBXBuildFile; fileRef = DE6946551B11B17C008C1F56 /* game.c */; };
+		DE6946FC1B157A79008C1F56 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = DE6946FB1B157A79008C1F56 /* matrix.c */; };
+		DE8AC4201B49C0E9008FDDBC /* canvas.c in Sources */ = {isa = PBXBuildFile; fileRef = DE8AC41F1B49C0E9008FDDBC /* canvas.c */; };
+		DE8AC4221B49C0F4008FDDBC /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = DE8AC4211B49C0F4008FDDBC /* common.c */; };
+		DE8AC4241B49C0FA008FDDBC /* font.c in Sources */ = {isa = PBXBuildFile; fileRef = DE8AC4231B49C0FA008FDDBC /* font.c */; };
+		DEBF76B11B9EB72000812BA0 /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = DEBF76B01B9EB72000812BA0 /* types.c */; };
+		DEBF76C11B9EB75D00812BA0 /* decay.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76B31B9EB75D00812BA0 /* decay.vsh */; };
+		DEBF76C21B9EB75D00812BA0 /* decay.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76B41B9EB75D00812BA0 /* decay.fsh */; };
+		DEBF76C31B9EB75D00812BA0 /* threshold.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76B51B9EB75D00812BA0 /* threshold.vsh */; };
+		DEBF76C41B9EB75D00812BA0 /* threshold.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76B61B9EB75D00812BA0 /* threshold.fsh */; };
+		DEBF76C51B9EB75D00812BA0 /* blur.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76B71B9EB75D00812BA0 /* blur.vsh */; };
+		DEBF76C61B9EB75D00812BA0 /* blur.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76B81B9EB75D00812BA0 /* blur.fsh */; };
+		DEBF76C71B9EB75D00812BA0 /* blend.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76B91B9EB75D00812BA0 /* blend.vsh */; };
+		DEBF76C81B9EB75D00812BA0 /* blend.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76BA1B9EB75D00812BA0 /* blend.fsh */; };
+		DEBF76C91B9EB75D00812BA0 /* copy.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76BB1B9EB75D00812BA0 /* copy.vsh */; };
+		DEBF76CA1B9EB75D00812BA0 /* copy.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76BC1B9EB75D00812BA0 /* copy.fsh */; };
+		DEBF76CB1B9EB75D00812BA0 /* line.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76BD1B9EB75D00812BA0 /* line.vsh */; };
+		DEBF76CC1B9EB75D00812BA0 /* line.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76BE1B9EB75D00812BA0 /* line.fsh */; };
+		DEBF76CD1B9EB75D00812BA0 /* canvas.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76BF1B9EB75D00812BA0 /* canvas.vsh */; };
+		DEBF76CE1B9EB75D00812BA0 /* canvas.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEBF76C01B9EB75D00812BA0 /* canvas.fsh */; };
+		DEDC0D341B1C30E5007500A4 /* glutil.c in Sources */ = {isa = PBXBuildFile; fileRef = DEDC0D331B1C30E5007500A4 /* glutil.c */; };
+		DEF0551A1B5CC39E006CED53 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = DEF055191B5CC39E006CED53 /* util.c */; };
+		DEF8FEA91B10456F000CC286 /* shader.c in Sources */ = {isa = PBXBuildFile; fileRef = DEF8FEA81B10456F000CC286 /* shader.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE1C6CE61B4E444D00ED5FDB /* model.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = model.c; sourceTree = "<group>"; };
+		DE21AC841B15A5F5005A54F5 /* mac-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "mac-main.m"; path = "src/mac-main.m"; sourceTree = SOURCE_ROOT; };
+		DE21AC861B15A634005A54F5 /* mac-mainmenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "mac-mainmenu.xib"; path = "src/mac-mainmenu.xib"; sourceTree = SOURCE_ROOT; };
+		DE6946551B11B17C008C1F56 /* game.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = game.c; path = src/game.c; sourceTree = SOURCE_ROOT; };
+		DE6946FB1B157A79008C1F56 /* matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = matrix.c; path = src/matrix.c; sourceTree = SOURCE_ROOT; };
+		DE6947011B157F25008C1F56 /* mac-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "mac-info.plist"; path = "src/mac-info.plist"; sourceTree = SOURCE_ROOT; };
+		DE8AC41F1B49C0E9008FDDBC /* canvas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = canvas.c; sourceTree = "<group>"; };
+		DE8AC4211B49C0F4008FDDBC /* common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = common.c; sourceTree = "<group>"; };
+		DE8AC4231B49C0FA008FDDBC /* font.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = font.c; sourceTree = "<group>"; };
+		DEA47C411B196E8C0035B464 /* types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = types.c; path = src/types.c; sourceTree = SOURCE_ROOT; };
+		DEBF76B01B9EB72000812BA0 /* types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = types.c; sourceTree = "<group>"; };
+		DEBF76B31B9EB75D00812BA0 /* decay.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = decay.vsh; sourceTree = "<group>"; };
+		DEBF76B41B9EB75D00812BA0 /* decay.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = decay.fsh; sourceTree = "<group>"; };
+		DEBF76B51B9EB75D00812BA0 /* threshold.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = threshold.vsh; sourceTree = "<group>"; };
+		DEBF76B61B9EB75D00812BA0 /* threshold.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = threshold.fsh; sourceTree = "<group>"; };
+		DEBF76B71B9EB75D00812BA0 /* blur.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blur.vsh; sourceTree = "<group>"; };
+		DEBF76B81B9EB75D00812BA0 /* blur.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blur.fsh; sourceTree = "<group>"; };
+		DEBF76B91B9EB75D00812BA0 /* blend.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blend.vsh; sourceTree = "<group>"; };
+		DEBF76BA1B9EB75D00812BA0 /* blend.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blend.fsh; sourceTree = "<group>"; };
+		DEBF76BB1B9EB75D00812BA0 /* copy.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = copy.vsh; sourceTree = "<group>"; };
+		DEBF76BC1B9EB75D00812BA0 /* copy.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = copy.fsh; sourceTree = "<group>"; };
+		DEBF76BD1B9EB75D00812BA0 /* line.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = line.vsh; sourceTree = "<group>"; };
+		DEBF76BE1B9EB75D00812BA0 /* line.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = line.fsh; sourceTree = "<group>"; };
+		DEBF76BF1B9EB75D00812BA0 /* canvas.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = canvas.vsh; sourceTree = "<group>"; };
+		DEBF76C01B9EB75D00812BA0 /* canvas.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = canvas.fsh; sourceTree = "<group>"; };
+		DEDC0D331B1C30E5007500A4 /* glutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glutil.c; sourceTree = "<group>"; };
+		DEF055191B5CC39E006CED53 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		DEF8FE7B1B1043FE000CC286 /* asteroids-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "asteroids-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF8FEA81B10456F000CC286 /* shader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = shader.c; path = src/shader.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEF8FE781B1043FE000CC286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEBF76B21B9EB75100812BA0 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				DEBF76B31B9EB75D00812BA0 /* decay.vsh */,
+				DEBF76B41B9EB75D00812BA0 /* decay.fsh */,
+				DEBF76B51B9EB75D00812BA0 /* threshold.vsh */,
+				DEBF76B61B9EB75D00812BA0 /* threshold.fsh */,
+				DEBF76B71B9EB75D00812BA0 /* blur.vsh */,
+				DEBF76B81B9EB75D00812BA0 /* blur.fsh */,
+				DEBF76B91B9EB75D00812BA0 /* blend.vsh */,
+				DEBF76BA1B9EB75D00812BA0 /* blend.fsh */,
+				DEBF76BB1B9EB75D00812BA0 /* copy.vsh */,
+				DEBF76BC1B9EB75D00812BA0 /* copy.fsh */,
+				DEBF76BD1B9EB75D00812BA0 /* line.vsh */,
+				DEBF76BE1B9EB75D00812BA0 /* line.fsh */,
+				DEBF76BF1B9EB75D00812BA0 /* canvas.vsh */,
+				DEBF76C01B9EB75D00812BA0 /* canvas.fsh */,
+			);
+			name = shaders;
+			sourceTree = "<group>";
+		};
+		DEF8FE721B1043FE000CC286 = {
+			isa = PBXGroup;
+			children = (
+				DEF8FE7D1B1043FE000CC286 /* src */,
+				DEF8FE7C1B1043FE000CC286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF8FE7C1B1043FE000CC286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF8FE7B1B1043FE000CC286 /* asteroids-mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF8FE7D1B1043FE000CC286 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DEBF76B21B9EB75100812BA0 /* shaders */,
+				DE8AC41F1B49C0E9008FDDBC /* canvas.c */,
+				DE8AC4211B49C0F4008FDDBC /* common.c */,
+				DE6946551B11B17C008C1F56 /* game.c */,
+				DEF8FEA81B10456F000CC286 /* shader.c */,
+				DE6946FB1B157A79008C1F56 /* matrix.c */,
+				DE1C6CE61B4E444D00ED5FDB /* model.c */,
+				DEDC0D331B1C30E5007500A4 /* glutil.c */,
+				DE8AC4231B49C0FA008FDDBC /* font.c */,
+				DEBF76B01B9EB72000812BA0 /* types.c */,
+				DEF055191B5CC39E006CED53 /* util.c */,
+				DE21AC841B15A5F5005A54F5 /* mac-main.m */,
+				DE6947011B157F25008C1F56 /* mac-info.plist */,
+				DE21AC861B15A634005A54F5 /* mac-mainmenu.xib */,
+				DEA47C411B196E8C0035B464 /* types.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEF8FE7A1B1043FE000CC286 /* asteroids-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF8FEA01B1043FE000CC286 /* Build configuration list for PBXNativeTarget "asteroids-mac" */;
+			buildPhases = (
+				DEF8FECD1B10460C000CC286 /* ShellScript */,
+				DEF8FE771B1043FE000CC286 /* Sources */,
+				DEF8FE781B1043FE000CC286 /* Frameworks */,
+				DEF8FE791B1043FE000CC286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "asteroids-mac";
+			productName = "asteroids-mac";
+			productReference = DEF8FE7B1B1043FE000CC286 /* asteroids-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF8FE731B1043FE000CC286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Christopher Hesse";
+				TargetAttributes = {
+					DEF8FE7A1B1043FE000CC286 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = DEF8FE761B1043FE000CC286 /* Build configuration list for PBXProject "asteroids-mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEF8FE721B1043FE000CC286;
+			productRefGroup = DEF8FE7C1B1043FE000CC286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF8FE7A1B1043FE000CC286 /* asteroids-mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEF8FE791B1043FE000CC286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBF76C51B9EB75D00812BA0 /* blur.vsh in Resources */,
+				DEBF76C61B9EB75D00812BA0 /* blur.fsh in Resources */,
+				DEBF76C81B9EB75D00812BA0 /* blend.fsh in Resources */,
+				DEBF76CE1B9EB75D00812BA0 /* canvas.fsh in Resources */,
+				DEBF76CD1B9EB75D00812BA0 /* canvas.vsh in Resources */,
+				DEBF76CB1B9EB75D00812BA0 /* line.vsh in Resources */,
+				DEBF76CC1B9EB75D00812BA0 /* line.fsh in Resources */,
+				DEBF76C11B9EB75D00812BA0 /* decay.vsh in Resources */,
+				DEBF76CA1B9EB75D00812BA0 /* copy.fsh in Resources */,
+				DEBF76C41B9EB75D00812BA0 /* threshold.fsh in Resources */,
+				DEBF76C31B9EB75D00812BA0 /* threshold.vsh in Resources */,
+				DEBF76C91B9EB75D00812BA0 /* copy.vsh in Resources */,
+				DEBF76C71B9EB75D00812BA0 /* blend.vsh in Resources */,
+				DEBF76C21B9EB75D00812BA0 /* decay.fsh in Resources */,
+				DE21AC871B15A634005A54F5 /* mac-mainmenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DEF8FECD1B10460C000CC286 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n/usr/local/go/bin/go run build/build.go";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEF8FE771B1043FE000CC286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6946561B11B17C008C1F56 /* game.c in Sources */,
+				DE1C6CE71B4E444D00ED5FDB /* model.c in Sources */,
+				DE8AC4241B49C0FA008FDDBC /* font.c in Sources */,
+				DEF8FEA91B10456F000CC286 /* shader.c in Sources */,
+				DE8AC4221B49C0F4008FDDBC /* common.c in Sources */,
+				DEDC0D341B1C30E5007500A4 /* glutil.c in Sources */,
+				DE8AC4201B49C0E9008FDDBC /* canvas.c in Sources */,
+				DE21AC851B15A5F5005A54F5 /* mac-main.m in Sources */,
+				DEF0551A1B5CC39E006CED53 /* util.c in Sources */,
+				DEBF76B11B9EB72000812BA0 /* types.c in Sources */,
+				DE6946FC1B157A79008C1F56 /* matrix.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEF8FE9E1B1043FE000CC286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEF8FE9F1B1043FE000CC286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEF8FEA11B1043FE000CC286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/src/mac-info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scourcritical.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEF8FEA21B1043FE000CC286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/src/mac-info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scourcritical.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEF8FE761B1043FE000CC286 /* Build configuration list for PBXProject "asteroids-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF8FE9E1B1043FE000CC286 /* Debug */,
+				DEF8FE9F1B1043FE000CC286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF8FEA01B1043FE000CC286 /* Build configuration list for PBXNativeTarget "asteroids-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF8FEA11B1043FE000CC286 /* Debug */,
+				DEF8FEA21B1043FE000CC286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEF8FE731B1043FE000CC286 /* Project object */;
+}

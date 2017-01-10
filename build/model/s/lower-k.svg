@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="100px" viewBox="0 0 48 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>lower-k</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="lower-k" sketch:type="MSArtboardGroup" stroke="#E30000">
+            <g id="Path-17-Copy-2-+-Path-18-Copy-2-+-Path-16-Copy-2" sketch:type="MSLayerGroup" transform="translate(8.000000, 18.000000)">
+                <path d="M31.783914,62.4202572 L31.783914,39.6967043 L26.0142182,33.9270085 L6.98155737,33.9270085 L1.46805554,39.4405103" id="Path-17-Copy-2" sketch:type="MSShapeGroup"></path>
+                <path d="M31.7404569,12.7615657 L31.7404569,28.1220636 L26.0177868,33.8447337" id="Path-18-Copy-2" sketch:type="MSShapeGroup"></path>
+                <path d="M1.33664835,0.887054027 L1.33664835,62.4146126" id="Path-16-Copy-2" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

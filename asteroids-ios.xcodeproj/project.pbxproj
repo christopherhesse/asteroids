@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1C6CE51B4E3B1C00ED5FDB /* model.c in Sources */ = {isa = PBXBuildFile; fileRef = DE1C6CE41B4E3B1C00ED5FDB /* model.c */; };
+		DE1C6CE91B4F80D900ED5FDB /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = DE1C6CE81B4F80D900ED5FDB /* util.c */; };
+		DE556BA71B1EB63500E23F5D /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = DE556BA61B1EB63500E23F5D /* types.c */; };
+		DE69465A1B127693008C1F56 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = DE6946591B127693008C1F56 /* matrix.c */; };
+		DE6947001B157E26008C1F56 /* ios-launchscreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6946FF1B157E26008C1F56 /* ios-launchscreen.xib */; };
+		DE8AC40F1B410A01008FDDBC /* line.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DE8AC40E1B410A01008FDDBC /* line.vsh */; };
+		DE8AC4111B410A09008FDDBC /* line.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DE8AC4101B410A09008FDDBC /* line.fsh */; };
+		DE8AC4141B4509B8008FDDBC /* font.c in Sources */ = {isa = PBXBuildFile; fileRef = DE8AC4131B4509B8008FDDBC /* font.c */; };
+		DE8AC4161B4877BF008FDDBC /* canvas.c in Sources */ = {isa = PBXBuildFile; fileRef = DE8AC4151B4877BF008FDDBC /* canvas.c */; };
+		DE8AC41A1B48780D008FDDBC /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = DE8AC4191B48780D008FDDBC /* common.c */; };
+		DE8AC41C1B489645008FDDBC /* canvas.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DE8AC41B1B489645008FDDBC /* canvas.vsh */; };
+		DE8AC41E1B48964C008FDDBC /* canvas.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DE8AC41D1B48964C008FDDBC /* canvas.fsh */; };
+		DEA510C31B2028A400408515 /* decay.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEA510C21B2028A400408515 /* decay.fsh */; };
+		DEA510C51B2028AC00408515 /* decay.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEA510C41B2028AC00408515 /* decay.vsh */; };
+		DEAB21B51B37C543000CF12E /* threshold.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEAB21B41B37C543000CF12E /* threshold.fsh */; };
+		DEAB21B71B37C54A000CF12E /* threshold.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEAB21B61B37C54A000CF12E /* threshold.vsh */; };
+		DEAB21B91B37CFF4000CF12E /* blur.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEAB21B81B37CFF4000CF12E /* blur.vsh */; };
+		DEAB21BB1B37CFFD000CF12E /* blur.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEAB21BA1B37CFFD000CF12E /* blur.fsh */; };
+		DEAB21BD1B391AA9000CF12E /* blend.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEAB21BC1B391AA9000CF12E /* blend.vsh */; };
+		DEAB21BF1B391AB0000CF12E /* blend.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEAB21BE1B391AB0000CF12E /* blend.fsh */; };
+		DEAB21C11B391FE0000CF12E /* copy.vsh in Resources */ = {isa = PBXBuildFile; fileRef = DEAB21C01B391FE0000CF12E /* copy.vsh */; };
+		DEAB21C31B391FE9000CF12E /* copy.fsh in Resources */ = {isa = PBXBuildFile; fileRef = DEAB21C21B391FE9000CF12E /* copy.fsh */; };
+		DEDC0D321B1C2705007500A4 /* glutil.c in Sources */ = {isa = PBXBuildFile; fileRef = DEDC0D311B1C2705007500A4 /* glutil.c */; };
+		DEF62AD01B10431900E3BB0C /* ios-main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF62ACF1B10431900E3BB0C /* ios-main.m */; };
+		DEF8FED61B104893000CC286 /* shader.c in Sources */ = {isa = PBXBuildFile; fileRef = DEF8FED51B104893000CC286 /* shader.c */; };
+		DEF8FEE01B11ACA8000CC286 /* game.c in Sources */ = {isa = PBXBuildFile; fileRef = DEF8FEDF1B11ACA8000CC286 /* game.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE1C6CE41B4E3B1C00ED5FDB /* model.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = model.c; sourceTree = "<group>"; };
+		DE1C6CE81B4F80D900ED5FDB /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		DE556BA61B1EB63500E23F5D /* types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = types.c; sourceTree = "<group>"; };
+		DE6946591B127693008C1F56 /* matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = matrix.c; path = src/matrix.c; sourceTree = SOURCE_ROOT; };
+		DE6946FD1B157DF1008C1F56 /* ios-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ios-info.plist"; path = "src/ios-info.plist"; sourceTree = SOURCE_ROOT; };
+		DE6946FF1B157E26008C1F56 /* ios-launchscreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "ios-launchscreen.xib"; path = "src/ios-launchscreen.xib"; sourceTree = SOURCE_ROOT; };
+		DE8AC40E1B410A01008FDDBC /* line.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = line.vsh; sourceTree = "<group>"; };
+		DE8AC4101B410A09008FDDBC /* line.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = line.fsh; sourceTree = "<group>"; };
+		DE8AC4131B4509B8008FDDBC /* font.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = font.c; sourceTree = "<group>"; };
+		DE8AC4151B4877BF008FDDBC /* canvas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = canvas.c; sourceTree = "<group>"; };
+		DE8AC4191B48780D008FDDBC /* common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = common.c; sourceTree = "<group>"; };
+		DE8AC41B1B489645008FDDBC /* canvas.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = canvas.vsh; sourceTree = "<group>"; };
+		DE8AC41D1B48964C008FDDBC /* canvas.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = canvas.fsh; sourceTree = "<group>"; };
+		DEA510C21B2028A400408515 /* decay.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = decay.fsh; sourceTree = "<group>"; };
+		DEA510C41B2028AC00408515 /* decay.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = decay.vsh; sourceTree = "<group>"; };
+		DEAB21B41B37C543000CF12E /* threshold.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = threshold.fsh; sourceTree = "<group>"; };
+		DEAB21B61B37C54A000CF12E /* threshold.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = threshold.vsh; sourceTree = "<group>"; };
+		DEAB21B81B37CFF4000CF12E /* blur.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blur.vsh; sourceTree = "<group>"; };
+		DEAB21BA1B37CFFD000CF12E /* blur.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blur.fsh; sourceTree = "<group>"; };
+		DEAB21BC1B391AA9000CF12E /* blend.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blend.vsh; sourceTree = "<group>"; };
+		DEAB21BE1B391AB0000CF12E /* blend.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blend.fsh; sourceTree = "<group>"; };
+		DEAB21C01B391FE0000CF12E /* copy.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = copy.vsh; sourceTree = "<group>"; };
+		DEAB21C21B391FE9000CF12E /* copy.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = copy.fsh; sourceTree = "<group>"; };
+		DEDC0D311B1C2705007500A4 /* glutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glutil.c; sourceTree = "<group>"; };
+		DEF62AA01B10424700E3BB0C /* asteroids-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "asteroids-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF62ACF1B10431900E3BB0C /* ios-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ios-main.m"; path = "src/ios-main.m"; sourceTree = SOURCE_ROOT; };
+		DEF8FED51B104893000CC286 /* shader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = shader.c; path = src/shader.c; sourceTree = SOURCE_ROOT; };
+		DEF8FEDF1B11ACA8000CC286 /* game.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = game.c; path = src/game.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEF62A9D1B10424700E3BB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA510BB1B20155400408515 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				DEA510C41B2028AC00408515 /* decay.vsh */,
+				DEA510C21B2028A400408515 /* decay.fsh */,
+				DEAB21B61B37C54A000CF12E /* threshold.vsh */,
+				DEAB21B41B37C543000CF12E /* threshold.fsh */,
+				DEAB21B81B37CFF4000CF12E /* blur.vsh */,
+				DEAB21BA1B37CFFD000CF12E /* blur.fsh */,
+				DEAB21BC1B391AA9000CF12E /* blend.vsh */,
+				DEAB21BE1B391AB0000CF12E /* blend.fsh */,
+				DEAB21C01B391FE0000CF12E /* copy.vsh */,
+				DEAB21C21B391FE9000CF12E /* copy.fsh */,
+				DE8AC40E1B410A01008FDDBC /* line.vsh */,
+				DE8AC4101B410A09008FDDBC /* line.fsh */,
+				DE8AC41B1B489645008FDDBC /* canvas.vsh */,
+				DE8AC41D1B48964C008FDDBC /* canvas.fsh */,
+			);
+			name = shaders;
+			sourceTree = "<group>";
+		};
+		DEF62A971B10424700E3BB0C = {
+			isa = PBXGroup;
+			children = (
+				DEF62AA21B10424700E3BB0C /* src */,
+				DEF62AA11B10424700E3BB0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF62AA11B10424700E3BB0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF62AA01B10424700E3BB0C /* asteroids-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF62AA21B10424700E3BB0C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DEA510BB1B20155400408515 /* shaders */,
+				DE8AC4151B4877BF008FDDBC /* canvas.c */,
+				DE8AC4191B48780D008FDDBC /* common.c */,
+				DEF8FEDF1B11ACA8000CC286 /* game.c */,
+				DEF8FED51B104893000CC286 /* shader.c */,
+				DE6946591B127693008C1F56 /* matrix.c */,
+				DE1C6CE41B4E3B1C00ED5FDB /* model.c */,
+				DEDC0D311B1C2705007500A4 /* glutil.c */,
+				DE8AC4131B4509B8008FDDBC /* font.c */,
+				DE556BA61B1EB63500E23F5D /* types.c */,
+				DE1C6CE81B4F80D900ED5FDB /* util.c */,
+				DEF62ACF1B10431900E3BB0C /* ios-main.m */,
+				DE6946FD1B157DF1008C1F56 /* ios-info.plist */,
+				DE6946FF1B157E26008C1F56 /* ios-launchscreen.xib */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEF62A9F1B10424700E3BB0C /* asteroids-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF62AC71B10424700E3BB0C /* Build configuration list for PBXNativeTarget "asteroids-ios" */;
+			buildPhases = (
+				DEF8FED71B1048FA000CC286 /* ShellScript */,
+				DEF62A9C1B10424700E3BB0C /* Sources */,
+				DEF62A9D1B10424700E3BB0C /* Frameworks */,
+				DEF62A9E1B10424700E3BB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "asteroids-ios";
+			productName = "asteroids-ios";
+			productReference = DEF62AA01B10424700E3BB0C /* asteroids-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF62A981B10424700E3BB0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Christopher Hesse";
+				TargetAttributes = {
+					DEF62A9F1B10424700E3BB0C = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = JC6EJ84GCW;
+					};
+				};
+			};
+			buildConfigurationList = DEF62A9B1B10424700E3BB0C /* Build configuration list for PBXProject "asteroids-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEF62A971B10424700E3BB0C;
+			productRefGroup = DEF62AA11B10424700E3BB0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF62A9F1B10424700E3BB0C /* asteroids-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEF62A9E1B10424700E3BB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB21B91B37CFF4000CF12E /* blur.vsh in Resources */,
+				DEAB21C11B391FE0000CF12E /* copy.vsh in Resources */,
+				DE8AC4111B410A09008FDDBC /* line.fsh in Resources */,
+				DEAB21B51B37C543000CF12E /* threshold.fsh in Resources */,
+				DEAB21C31B391FE9000CF12E /* copy.fsh in Resources */,
+				DEA510C31B2028A400408515 /* decay.fsh in Resources */,
+				DEA510C51B2028AC00408515 /* decay.vsh in Resources */,
+				DE8AC41E1B48964C008FDDBC /* canvas.fsh in Resources */,
+				DE8AC41C1B489645008FDDBC /* canvas.vsh in Resources */,
+				DE6947001B157E26008C1F56 /* ios-launchscreen.xib in Resources */,
+				DEAB21BD1B391AA9000CF12E /* blend.vsh in Resources */,
+				DE8AC40F1B410A01008FDDBC /* line.vsh in Resources */,
+				DEAB21BB1B37CFFD000CF12E /* blur.fsh in Resources */,
+				DEAB21B71B37C54A000CF12E /* threshold.vsh in Resources */,
+				DEAB21BF1B391AB0000CF12E /* blend.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DEF8FED71B1048FA000CC286 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n/usr/local/go/bin/go run build/build.go";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEF62A9C1B10424700E3BB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF8FEE01B11ACA8000CC286 /* game.c in Sources */,
+				DE1C6CE51B4E3B1C00ED5FDB /* model.c in Sources */,
+				DEF8FED61B104893000CC286 /* shader.c in Sources */,
+				DE8AC4141B4509B8008FDDBC /* font.c in Sources */,
+				DE8AC41A1B48780D008FDDBC /* common.c in Sources */,
+				DE69465A1B127693008C1F56 /* matrix.c in Sources */,
+				DE556BA71B1EB63500E23F5D /* types.c in Sources */,
+				DEF62AD01B10431900E3BB0C /* ios-main.m in Sources */,
+				DE1C6CE91B4F80D900ED5FDB /* util.c in Sources */,
+				DEDC0D321B1C2705007500A4 /* glutil.c in Sources */,
+				DE8AC4161B4877BF008FDDBC /* canvas.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEF62AC51B10424700E3BB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEF62AC61B10424700E3BB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEF62AC81B10424700E3BB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JC6EJ84GCW;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_IPHONE=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/src/ios-info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEF62AC91B10424700E3BB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JC6EJ84GCW;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_IPHONE=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/src/ios-info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEF62A9B1B10424700E3BB0C /* Build configuration list for PBXProject "asteroids-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF62AC51B10424700E3BB0C /* Debug */,
+				DEF62AC61B10424700E3BB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF62AC71B10424700E3BB0C /* Build configuration list for PBXNativeTarget "asteroids-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF62AC81B10424700E3BB0C /* Debug */,
+				DEF62AC91B10424700E3BB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEF62A981B10424700E3BB0C /* Project object */;
+}
